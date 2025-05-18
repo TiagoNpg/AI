@@ -9,7 +9,6 @@ from genetic import genetic_algorithm
 from nn import create_network_architecture
 from dt import train_decision_tree
 
-
 STATE_SIZE = 1 + 3 * 3
 MAX_SCORE = 100
 
