@@ -1,4 +1,4 @@
 id;name;color;format;is_fruit
-10;apple;green;circle;1
-11;banana;blue;curved;-1
-12;pear;blue;oval;1
+13;apple;green;circle;-1
+14;banana;orange;curved;1
+15;apple;yellow;circle;1

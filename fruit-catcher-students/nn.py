@@ -25,7 +25,7 @@ class NeuralNetwork:
         input_size = self.input_size
         for n in self.hidden_architecture:
             end_w = start_w + (input_size + 1) * n
-            self.hidden_biases.append(w[start_w:start_w + n])
+            self.hidden_biases.append(w[start_w:start_w+n])
             self.hidden_weights.append(w[start_w+n:end_w].reshape(input_size, n))
             start_w = end_w
             input_size = n
